@@ -1,2 +1,2 @@
 #!/bin/bash
-dirname=$(basename "$(pwd)") && cd / && echo "$dirname$(pwd)"
+dirname=$(basename "$(pwd)"); cd /; echo "$dirname$(pwd)"
