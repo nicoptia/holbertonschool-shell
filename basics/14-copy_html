@@ -1,2 +1,2 @@
 #!/bin/bash
-cp -R *.html
+find . -type f -name "*.html" -print0
